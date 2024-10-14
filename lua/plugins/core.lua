@@ -1,13 +1,9 @@
-return{
-  {"tiagovla/tokyodark.nvim",
-    opts = {
-        -- custom options here
-    },
-  },
+return {
+  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyodark",
+      colorscheme = "gruvbox"
     },
   },
 }
