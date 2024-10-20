@@ -1,13 +1,14 @@
-return{
-  {"tiagovla/tokyodark.nvim",
+return {
+  {
+    "tiagovla/tokyodark.nvim",
     opts = {
-        -- custom options here
+      -- custom options here
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyodark",
+      colorscheme = "catppuccin-macchiato",
     },
   },
 }
